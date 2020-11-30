@@ -267,7 +267,7 @@ extension iTextField {
         return view
     }
     
-    func style(height: CGFloat = 58,
+    public func style(height: CGFloat = 58,
                backgroundColor: Color? = nil,
                accentColor: Color = Color(red: 0.30, green: 0.76, blue: 0.85),
                font inputFont: UIFont? = nil,
